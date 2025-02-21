@@ -1,0 +1,140 @@
+.section5{
+    /* width: 1220px; */
+    height: 300px;
+    /* background: #f0aeae; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    margin-top: 30px;
+}
+
+.section5_span1{
+    width: 40%;
+    height: 100%;;
+    background-color: aqua;
+    border-radius: 7px;
+    position: relative;
+}
+
+.section5_span1_cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.section5_span1_span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.section5_span1_span_button{
+    width: 20%;
+    height: 7%;
+    background-color: #EC3237;
+    border-radius: 7px;
+    font-size: 1vw;
+    border: none;
+    color: #DEF6F7;
+    position: absolute;
+    left: 3%;
+    top: 55%;
+}
+
+.section5_span1_span_text{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 3%;
+    top: 65%;
+    width: 80%;
+    height: 7%;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* identical to box height */
+    z-index: 1;
+    color: #DEF6F7;
+}
+
+.section5_span1_span1{
+    width: 85%;
+    height: 9%;
+    /* background-color: burlywood; */
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+}
+
+
+.section5_span1_image{
+    width: 100%;
+    height: 100%;
+}
+
+.section5_span2{
+    width: 27%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 7px;
+    position: relative;
+}
+
+.section5_span3{
+    width: 25%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 7px;
+    position: relative;
+}
+
+@media (max-width: 750px){
+    .section5_span1_span_text{
+        line-height: 17px;
+    }
+}
+
+
+@media (max-width: 700px){
+    .section5{
+        height: 200px;
+    }
+
+    .section5_span1_span_text{
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 520px){
+    .section5{
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 520px){
+    .section5_span1_span_text{
+        line-height: 8px;
+    }
+}
+
+@media (max-width: 370px){
+    .section5{
+        height: 300px;
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .section5_span1{
+        width: 100%;
+        height: 30%;;
+    }
+
+    .section5_span2{
+        width: 100%;
+        height: 30%;;
+    }
+}

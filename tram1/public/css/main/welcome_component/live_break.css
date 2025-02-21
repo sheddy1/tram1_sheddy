@@ -1,0 +1,42 @@
+.live_break{
+    /* width: 1220px; */
+    height: 40px;
+    /* background: #5f3434; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 2%;
+}
+
+.live_break_txt{
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    color: #034C3C;
+}
+
+.live_break_span{
+    height: 5%;
+    background-color: #034C3C;
+    width: 84%;
+    ;
+}
+
+@media (max-width: 420px){
+
+}
+
+@media (max-width: 370px){
+    .live_break_txt{
+        font-size: 1.5vw;
+
+    }
+
+    .live_break{
+        /* width: 1220px; */
+        height: 20px;
+    }
+
+}
+

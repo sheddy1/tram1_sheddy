@@ -1,0 +1,246 @@
+.news_section{
+    /* width: 1220px; */
+    height: 450px;
+    /* background: #edd2d2; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-top: 30px;
+}
+
+.newssection_main{
+    width: 60%;
+    height: 100%;;
+    background-color: beige;;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.newssection_main_span{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.newssection_main_image{
+    width: 100%;
+    height: 100%;
+}
+
+.newssection_main_cover_image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.newssection_main_span{
+    width: 100%;
+    height: 100%;
+}
+
+.newssection_main_span_text{
+    position: absolute;;
+    top: 70%;
+    left: 3%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    color: #DEF6F7;
+}
+
+.newssection_main_span_info{
+    width: 94%;
+    height: 5%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10%;
+}
+
+.newssection_main_span_info1{
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(86, 110, 132); */
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10%;
+}
+
+.newssection_main_span_info2{
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(86, 110, 132); */
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.newssection_main_span_info1_txt{
+    font-size: 1.8vw;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    color: #DEF6F7;
+}
+
+.newssection_main_span_button{
+    width: 20%;
+    height: 5%;
+    background-color: #EC3237;
+    border: none;
+    border-radius: 7px;
+    color: #DEF6F7;
+    font-size: 1vw;
+    position: absolute;
+    left: 3%;
+    top: 60%;
+}
+
+.newssection_main_image{
+    width: 100%;
+    height: 100%;
+}
+
+.newssection_extra{
+    width: 37%;
+    height: 100%;;
+    /* background-color: beige; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+
+}
+
+.newssection_extra_box{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.newssection_extra_box1{
+    width: 65%;
+    height: 100%;
+    /* background-color: rgb(161, 119, 64); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.newssection_extra_box2{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(199, 154, 94); */
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newssection_extra_box2_image{
+    width: 100%;
+    height: 100%;
+}
+
+.newssection_extra_box2_cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.newssection_extra_box1_header{
+    width: 100%;
+    height: 20%;
+    /* background-color: burlywood; */
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25%;
+}
+
+.newssection_extra_box1_footer{
+    width: 100%;
+    height: 20%;
+    /* background-color: burlywood; */
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10%;
+}
+
+.newssection_extra_box1_footer_txt{
+    font-size: 1.31vw;
+    color: #034C3C;
+}
+
+.newssection_extra_box1_main_txt{
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: #034C3C;
+    width: 100%;
+    height: 100%;
+}
+
+.newssection_extra_box1_main{
+    width: 100%;
+    height: 55%;
+    /* background-color: burlywood; */
+}
+
+@media (max-width: 900px){
+    .news_section{
+        height: 400px;
+    }
+}
+
+@media (max-width: 580px){
+    .news_section{
+        height: 350px;
+    }
+}
+
+@media (max-width: 480px){
+
+}
+
+@media (max-width: 420px){
+    .news_section{
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .newssection_extra_box1_footer_txt{
+        font-size: 2vw;
+    }
+
+    .newssection_main{
+        width: 100%;
+        height: 50%;
+        background-color: beige;
+        position: relative;
+    }
+
+    .newssection_extra{
+        width: 100%;
+        height: 47%;;
+
+    }
+}
