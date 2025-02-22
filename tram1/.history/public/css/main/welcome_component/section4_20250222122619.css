@@ -452,7 +452,6 @@
     .section4{
         flex-direction: column;
         height: 550px;
-        gap: 5%;
     }
 
     .section4_video{
@@ -467,7 +466,7 @@
     }
 
     .section4_extra{
-        height: 35%;
+        height: 30%;
         width: 100%;
     }
 
@@ -515,16 +514,16 @@
     }
 
     .section4_extra1_span_header_text{
-        font-size: 2.5vw;
+        font-size: 1vw;
         position: absolute;
-        left: 32%;
+        left: 40%;
         top: 3%;
     }
 
     .section4_extra1_span_header_text1{
-        font-size: 2.2vw;
+        font-size: 1vw;
         position: absolute;
-        left: 23%;
+        left: 33%;
         top: 20%;
     }
 

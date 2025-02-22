@@ -311,7 +311,7 @@ color: #034C3C;
 
 @media (max-width: 370px){
     .section3{
-        gap: 70px;
+        gap: 65px;
         height: 50px;
     }
 
@@ -329,7 +329,7 @@ color: #034C3C;
     position: absolute;
     left: 3%;
     top: 30%;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     line-height: 7px;
     }
 
@@ -339,11 +339,11 @@ color: #034C3C;
 
     .section3_article1_footer_span_txt{
         margin-bottom: -2px;
-        font-size: 0.9vw;
+        font-size: 0.6vw;
     }
 
     .section3_article1_footer_txt{
-        font-size: 0.9vw;
+        font-size: 0.6vw;
     }
 
     .section3_aricle1{

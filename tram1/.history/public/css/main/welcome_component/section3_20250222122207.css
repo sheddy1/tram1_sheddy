@@ -50,7 +50,7 @@
     position: absolute;
     left: 70%;
     bottom: 0%;
-    font-size: 1.3vw;
+    font-size: 1.9vw;
     text-decoration: underline;
     color: #034C3C;
 }
@@ -339,11 +339,11 @@ color: #034C3C;
 
     .section3_article1_footer_span_txt{
         margin-bottom: -2px;
-        font-size: 0.9vw;
+        font-size: 0.6vw;
     }
 
     .section3_article1_footer_txt{
-        font-size: 0.9vw;
+        font-size: 0.6vw;
     }
 
     .section3_aricle1{
