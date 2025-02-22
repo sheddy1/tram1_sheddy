@@ -11,5 +11,3 @@ Route::get('videos', [MainController::class, 'videos'])->name('videos');
 Route::get('news', [MainController::class, 'news'])->name('news');
 
 Route::get('about', [MainController::class, 'about'])->name('about');
-
-Route::get('contact', [MainController::class, 'contact'])->name('contact');

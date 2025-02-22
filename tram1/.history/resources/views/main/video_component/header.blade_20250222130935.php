@@ -57,13 +57,6 @@
         </label>
 
         <table class="header2_menu_table">
-            <tr><td><a href="#" class="a_general_header2_menu">Home</a></td></tr>
-            <tr><td><a href="{{ route('videos') }}" class="a_general_header2_menu">Videos</a></td></tr>
-            <tr><td><a href="#" class="a_general_header2_menu">News</a></td></tr>
-            <tr><td><a href="#" class="a_general_header2_menu">About Us</a></td></tr>
-            <tr><td><a href="#" class="a_general_header2_menu">Contact Us</a></td></tr>
-        </table>
-        <table class="header2_menu_table">
             <tr><td><a href="{{ route('welcome') }}" class="a_general_header2_menu">Home</a></td></tr>
             <tr><td><a href="{{ route('videos') }}" class="a_general_header2_menu">Videos</a></td></tr>
             <tr><td><a href="{{ route('news') }}" class="a_general_header2_menu">News</a></td></tr>
@@ -74,19 +67,10 @@
         <table class="header2_links_table">
             <tr>
                 <td class="td_home_header_general"><a href="{{ route('welcome') }}" class="a_general_header2">Home</a></td>
-                <td class="td_home_header_general"><a href="{{ route('videos') }}" class="a_general_header2">Videos</a></td>
-                <td class="header2_links_table_main_td td_home_header_general"><a href="{{ route('news') }}" class="a_general_header2">News</a></td>
+                <td class="header2_links_table_main_td td_home_header_general"><a href="{{ route('videos') }}" class="a_general_header2">Videos</a></td>
+                <td class="td_home_header_general"><a href="{{ route('news') }}" class="a_general_header2">News</a></td>
                 <td class="td_home_header_general"><a href="{{ route('about') }}" class="a_general_header2">About Us</a></td>
                 <td class="td_home_header_general"><a href="{{ route('contact') }}" class="a_general_header2">Contact Us</a></td>
-            </tr>
-        </table>
-        <table class="header2_links_table">
-            <tr>
-                <td class="td_home_header_general"><a href="" class="a_general_header2">Home</a></td>
-                <td class="td_home_header_general"><a href="" class="a_general_header2">Videos</a></td>
-                <td class="header2_links_table_main_td td_home_header_general"><a href="" class="a_general_header2">News</a></td>
-                <td class="td_home_header_general"><a href="" class="a_general_header2">About Us</a></td>
-                <td class="td_home_header_general"><a href="" class="a_general_header2">Contact Us</a></td>
             </tr>
         </table>
     </span>

@@ -75,9 +75,9 @@
             <tr>
                 <td class="td_home_header_general"><a href="{{ route('welcome') }}" class="a_general_header2">Home</a></td>
                 <td class="td_home_header_general"><a href="{{ route('videos') }}" class="a_general_header2">Videos</a></td>
-                <td class="header2_links_table_main_td td_home_header_general"><a href="{{ route('news') }}" class="a_general_header2">News</a></td>
+                <td class="td_home_header_general"><a href="{{ route('news') }}" class="a_general_header2">News</a></td>
                 <td class="td_home_header_general"><a href="{{ route('about') }}" class="a_general_header2">About Us</a></td>
-                <td class="td_home_header_general"><a href="{{ route('contact') }}" class="a_general_header2">Contact Us</a></td>
+                <td class="header2_links_table_main_td td_home_header_general"><a href="{{ route('contact') }}" class="a_general_header2">Contact Us</a></td>
             </tr>
         </table>
         <table class="header2_links_table">

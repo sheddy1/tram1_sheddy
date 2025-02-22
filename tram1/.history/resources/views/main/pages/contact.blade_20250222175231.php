@@ -1,4 +1,4 @@
-@include('main.about_component.header')
+@include('main.contact.header')
 @include('main.welcome_component.footer')
 @include('main.welcome_component.not_available')
 

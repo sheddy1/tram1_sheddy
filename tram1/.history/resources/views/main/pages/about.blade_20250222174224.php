@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="{{ asset('css/main/pages/welcome.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main/welcome_component/home_header.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main/welcome_component/footer.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/main/welcome_component/not_available.css') }}">
 </head>
 <body>
     <div>

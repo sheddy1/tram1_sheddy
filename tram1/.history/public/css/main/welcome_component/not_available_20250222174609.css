@@ -1,0 +1,16 @@
+.not_available{
+    /* width: 1220px; */
+    height: 450px;
+    /* background: #edd2d2; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-direction:column;
+}
+
+.not_available_image{
+    width: 20%;
+    height: 20%;
+}

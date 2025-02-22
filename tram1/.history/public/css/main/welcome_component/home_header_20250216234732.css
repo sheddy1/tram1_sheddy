@@ -492,8 +492,8 @@ color: #034C3C;
 }
 
 .header2_links_table_main_td{
-    /* border-bottom: 4px solid #034C3C; */
-    font-weight: 900;
+    border-bottom: 4px solid #034C3C;
+    font-weight: 700;
 }
 
 .a_general_header2{
@@ -920,7 +920,7 @@ color: #034C3C;
     .a_general_header2_menu{
         color: #DEF6F7;
         text-decoration: none;
-        font-weight: 300;
+        font-weight: 700;
         font-size: 13px;
     }
 
