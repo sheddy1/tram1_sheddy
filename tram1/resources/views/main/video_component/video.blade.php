@@ -4,11 +4,11 @@
 
     <span class="video_span">
         <button class="videos_cover_button">
-            Culture
+            Politics
         </button>
 
         <text class="videos_cover_text">
-            The Ever Changing Situation of The Nigerian Economy
+            Nathasha Apoti Behaviour to The Senate President
         </text>
 
         <span class="videos_views">
@@ -21,12 +21,15 @@
             <text class="videos_views_text">24 Comments</text>
         </span>
 
-        <img src="{{ asset('images/play_button.png') }}" alt="facebook" class="videos_play_button">
+        <button onclick="window.location.href='{{ route('video_play') }}'" class="videos_play_button">
+            <img src="{{ asset('images/play_button.png') }}" alt="facebook" class="videos_play_button1">
+        </button>
+
 
         <img src="{{ asset('images/images/cover.png') }}" alt="facebook" class="video_span_cover">
     </span>
 
-    <img src="{{ asset('images/images/video_main.png') }}" alt="facebook" class="video_image">
+    <img src="{{ asset('images/images/video_play2.png') }}" alt="facebook" class="video_image">
 </div>
 
 @endsection

@@ -30,6 +30,11 @@ class MainController extends Controller
     {
         return view('main.pages.contact');
     }
+
+    public function video_play()
+    {
+        return view('main.pages.videos_play');
+    }
 }
 
 
