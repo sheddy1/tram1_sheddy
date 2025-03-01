@@ -1,0 +1,8 @@
+body{
+    background: #DEF6F7;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+
+    font-family: helvetica;
+}

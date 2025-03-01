@@ -1,0 +1,16 @@
+body{
+    background: #103536;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: helvetica;
+}
+
+.login{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(97, 113, 113);
+    position: absolute;
+}

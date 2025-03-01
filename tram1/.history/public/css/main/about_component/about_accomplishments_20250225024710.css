@@ -1,0 +1,10 @@
+.about_accomplishments{
+    /* width: 1220px; */
+    height: 250px;
+    background: #f0aeae;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-top: 50px;
+}

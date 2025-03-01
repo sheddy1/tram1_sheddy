@@ -1,0 +1,39 @@
+.login{
+    width: 100%;
+    height: 560px;
+    background-color: rgb(97, 113, 113);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.login_image{
+    width: 55%;
+    height: 100%;
+    background-color: beige;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login_image_span{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(103, 85, 62); */
+    position: absolute;
+    z-index: 1;
+}
+
+.login_image_image{
+    width: 100%;
+    height: 100%;
+}
+
+.login_main{
+    width: 40%;
+    height: 100%;
+    background-color: beige;
+}
+

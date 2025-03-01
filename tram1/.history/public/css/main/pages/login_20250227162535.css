@@ -1,0 +1,7 @@
+body{
+    background: #DEF6F7;
+    display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 100vh;
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+.about_team{
+    /* width: 1220px; */
+    height: 350px;
+    background: #f0aeae;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 30px;
+}
+
+.about_team_header_span{
+    width: 100%;
+    height: 10%;
+    background-color: #952d2d;
+}
+
+.about_team_main_span{
+    width: 100%;
+    height: 85%;
+    background-color: #952d2d;
+}

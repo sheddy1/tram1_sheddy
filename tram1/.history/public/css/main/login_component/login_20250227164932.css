@@ -1,0 +1,118 @@
+.login{
+    width: 95%;
+    height: 89%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(97, 113, 113);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.login_image{
+    width: 55%;
+    height: 100%;
+    /* background-color: beige; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login_image_span{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(103, 85, 62); */
+    position: absolute;
+    z-index: 1;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+}
+
+.login_image_span_header{
+    width: 100%;
+    height: 5%;
+    /* background-color: azure; */
+    margin-top: 3%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 16%;
+    margin-left: 2%;
+}
+
+.login_image_span_header1{
+    width: 40%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5%
+}
+
+.login_image_span_header1_icon{
+    height: 100%;
+    width: 12%;;
+}
+
+.login_image_span_header1_name{
+    color: #DEF6F7;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.login_image_span_header1_button1{
+    width: 46%;
+    height: 100%;
+    border: none;
+    border-radius: 7px;
+    /* border: 1px solid #034C3C;
+    background-color: aqua; */
+    background: none;
+    cursor: pointer;
+    color: #DEF6F7;
+    font-size: 1.2vw;
+}
+
+.login_image_span_header1_button{
+    width: 46%;
+    height: 100%;
+    border: none;
+    border-radius: 7px;
+    border: 2px solid #DEF6F7;
+    color: #DEF6F7;
+    background: none;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.login_image_image{
+    width: 100%;
+    height: 100%;
+}
+
+.login_main{
+    width: 40%;
+    height: 100%;
+    background-color: beige;
+}
+
+@media (max-width: 900px){
+    .login{
+        width: 85%;
+        height: 79%;
+    }
+}
+
+@media (max-width: 825px){
+    .login{
+        width: 85%;
+        height: 69%;
+    }
+}

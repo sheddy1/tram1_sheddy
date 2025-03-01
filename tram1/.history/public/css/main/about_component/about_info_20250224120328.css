@@ -1,0 +1,22 @@
+.about_info{
+    /* width: 1220px; */
+    height: 450px;
+    background: #f0aeae;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top: 30px;
+}
+
+.about_info_image{
+    width: 37%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.about_info_image{
+    width: 60%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
